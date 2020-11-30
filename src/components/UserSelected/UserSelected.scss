@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+@media all and (min-width: 200px){
+  /* xs */
+  .user-info{
+    width: 100%;
+    display: block;
+    padding: 1rem;
+
+    &__icon{
+      font-size: 30px;
+      margin-bottom: 1rem;
+    }
+
+    &__text{
+      display: block;
+      font-size: 17px;
+      padding-bottom: .56rem;
+      margin: 0 0 1rem 0 !important;
+      border-bottom: 1px solid #a1d2ff;
+
+      &:last-child{
+        border-bottom: 1px solid transparent;
+      }
+    }
+  }
+
+}
+@media all and (min-width: 576px){
+  /* sm */
+
+
+}
+@media all and (min-width: 768px){
+  /* md */
+
+
+}
+@media all and (min-width: 992px){
+  /* lg */
+
+
+}
+@media all and (min-width: 1200px){
+  /* xl */
+
+
+}

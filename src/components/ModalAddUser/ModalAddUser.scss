@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+@media all and (min-width: 200px){
+  /* xs */
+
+    .form-item{
+      &__label{
+        color: #929292;
+        font-weight: bold;
+        margin-bottom: .2rem;
+        display: inline-block;
+      }
+
+      &__input{
+        border-radius: 5px;
+        height: 2.6rem;
+        position: relative;
+        display: inline-block;
+        width: 100%;
+        min-width: 0;
+        padding: 4px 11px;
+        color: rgba(0, 0, 0, 0.85);
+        font-size: 14px;
+        line-height: 1.5715;
+        background-color: #fff;
+        border: 1px solid #cccccc;
+      }
+    }
+
+    .btn-save-user{
+      background-color: #4190F7;
+      color: #ffffff;
+      padding: 8px 0 8px 0 !important;
+      font-weight: 100;
+      width: 100%;
+      text-align: center;
+      max-width: 7rem;
+      height: 2.56rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      border-radius: 5px;
+      border: 1px solid transparent;
+    }
+    .modal-add-user{
+      position: relative;
+
+      &__close-modal{
+        position: absolute;
+        top: 1.26rem;
+        right: 2rem;
+        cursor: pointer;
+
+        &:hover{
+          color: #f00;
+        }
+      }
+    }
+
+    .modal-add-user .ant-modal-close-x{
+      display: none !important;
+    }
+
+}
+@media all and (min-width: 576px){
+  /* sm */
+
+
+}
+@media all and (min-width: 768px){
+  /* md */
+
+
+}
+@media all and (min-width: 992px){
+  /* lg */
+
+
+}
+@media all and (min-width: 1200px){
+  /* xl */
+
+
+}

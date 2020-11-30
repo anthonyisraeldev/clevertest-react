@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+@media all and (min-width: 200px){
+  /* xs */
+  .user-list-item{
+    margin-bottom: 1rem;
+    width: 100%;
+    display: block;
+    font-size: 17px;
+    padding: 8px 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+
+    &:hover{
+      background-color: #45cfc1;
+      color: #ffffff;
+    }
+  }
+
+}
+@media all and (min-width: 576px){
+  /* sm */
+
+
+}
+@media all and (min-width: 768px){
+  /* md */
+
+
+}
+@media all and (min-width: 992px){
+  /* lg */
+
+
+}
+@media all and (min-width: 1200px){
+  /* xl */
+
+
+}

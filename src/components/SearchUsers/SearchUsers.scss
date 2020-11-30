@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+@media all and (min-width: 200px){
+  /* xs */
+  .form-search__input .ant-input-group-addon{
+    display: none;
+  }
+  .form-search__input .ant-input-affix-wrapper{
+    height: 2.65rem !important;
+    border-radius: 5px !important;
+  }
+  .form-search{
+    display: flex;
+    align-items: center;
+    &__input{
+        width: 100% !important;
+        height: 2.65rem !important;
+        margin: 0 1rem 0 0;
+        border-radius: 5px;
+    }
+
+    &__input-icon{
+      color: #cccccc;
+      padding-right: 1rem;
+    }
+
+    &__btn-submit{
+      background-color: #4190F7;
+      color: #ffffff;
+      font-weight: 100;
+      width: 100%;
+      max-width: 8rem;
+      border-radius: 5px;
+      border: 1px solid transparent;
+    }
+  }
+}
+@media all and (min-width: 576px){
+  /* sm */
+
+
+}
+@media all and (min-width: 768px){
+  /* md */
+
+
+}
+@media all and (min-width: 992px){
+  /* lg */
+
+
+}
+@media all and (min-width: 1200px){
+  /* xl */
+
+
+}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+@media all and (min-width: 200px){
+  /* xs */
+  .container-btn-add-user{
+    text-align: left;
+  }
+
+  .btn-add-user{
+    background-color: #4190F7;
+    color: #ffffff;
+    font-weight: 100;
+    width: 100%;
+    max-width: 8rem;
+    border-radius: 5px;
+    border: 1px solid transparent;
+  }
+
+
+}
+@media all and (min-width: 576px){
+  /* sm */
+
+
+}
+@media all and (min-width: 768px){
+  /* md */
+  .container-btn-add-user{
+    text-align: right;
+  }
+
+}
+@media all and (min-width: 992px){
+  /* lg */
+
+
+}
+@media all and (min-width: 1200px){
+  /* xl */
+
+
+}

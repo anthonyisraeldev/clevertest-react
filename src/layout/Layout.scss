@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+@media all and (min-width: 200px){
+  /* xs */
+  body{
+    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+  }
+  .container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media all and (min-width: 576px){
+  /* sm */
+
+  .container{
+    max-width: 540px;
+    margin: 0 auto;
+  }
+
+}
+@media all and (min-width: 768px){
+  /* md */
+
+  .container{
+    max-width: 720px;
+  }
+
+}
+@media all and (min-width: 992px){
+  /* lg */
+
+  .container{
+    max-width: 960px;
+  }
+
+}
+@media all and (min-width: 1200px){
+  /* xl */
+
+  .container{
+    max-width: 1140px;
+  }
+
+}
